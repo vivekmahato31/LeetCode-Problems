@@ -7,10 +7,10 @@ public class EvenOdd {
         int num = sc.nextInt();
 
         if( num % 2 == 0){
-            System.out.println("The number " + num + " is Even ");
+            System.out.println("The number " + num + " is Even. ");
         }
         else{
-            System.out.println("The number " + num + " is Odd ");
+            System.out.println("The number " + num + " is Odd. ");
         }
 
         sc.close();
