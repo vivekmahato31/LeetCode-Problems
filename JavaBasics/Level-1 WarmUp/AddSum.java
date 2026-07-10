@@ -1,3 +1,5 @@
+// Write a program to read two numbers and print their sum.
+
 import java.util.*;
 
 public class AddSum {
