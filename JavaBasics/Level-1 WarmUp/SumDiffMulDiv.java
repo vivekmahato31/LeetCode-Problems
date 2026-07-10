@@ -6,10 +6,11 @@ public class SumDiffMulDiv {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter your First no: ");
-        double A = sc.nextInt();
+        double A = sc.nextDouble();
 
         System.out.println("Enter your Second no: ");
-        double B = sc.nextInt();
+        double B = sc.nextDouble();
+
 
         System.out.println();
 
