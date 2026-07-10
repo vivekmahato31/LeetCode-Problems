@@ -4,9 +4,8 @@ import java.util.*;
 public class Swap {
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter first no A: ");
+        System.out.println("Before Swaping");
         int a = sc.nextInt();
-        System.out.println("Enter second no B: ");
         int b = sc.nextInt();
 
         int temp = a;
@@ -14,10 +13,9 @@ public class Swap {
         b = temp;
 
         System.out.println("After Swapping ");
-        System.out.println();
-        System.out.println("The First no A: " + a);
-        System.out.println("The Second no B: " + b);
+        System.out.println( a);
+        System.out.println( b);
 
-        
+        sc.close();
     }
 }
