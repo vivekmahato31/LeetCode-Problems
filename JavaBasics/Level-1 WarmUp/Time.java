@@ -15,6 +15,6 @@ public class Time {
     
         System.out.println("There are "+ hour + " Hours "+ minute + " Minutes and " + second + " Seconds");
 
-
+        sc.close();
     }
 }
