@@ -26,8 +26,8 @@ public class SmallestNum {
         }
         else {
             System.out.println(C + " is Smallest.");
-        sc.close();
         }
+        sc.close();
     }
 
 }
