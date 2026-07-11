@@ -1,4 +1,5 @@
 // Write a program to read a number and check whether it is positive, negative or zero.
+
 import java.util.*;
 
 public class Positive {
