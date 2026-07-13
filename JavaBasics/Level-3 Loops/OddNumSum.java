@@ -15,7 +15,7 @@ public class OddNumSum {
         else {
             System.out.println("The Sum of all even numbers from 1 to " + n + " are: ");
             for (int i = 1; i <= n; i += 2){
-                    sum += i;
+                sum += i;
             }
             System.out.println(sum);
         }
