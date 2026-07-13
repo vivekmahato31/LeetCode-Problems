@@ -16,9 +16,9 @@ public class NaturalNum {
         }
         //edge case
         else{
-            System.out.println("The all natural numbers for 1 to " + n + " are: ");
-            for( int i = 1; i <= n ; i++){
-             System.out.println(i);
+                System.out.println("The all natural numbers for 1 to " + n + " are: ");
+                for( int i = 1; i <= n ; i++){
+                System.out.println(i);
             }
         }
         sc.close();
