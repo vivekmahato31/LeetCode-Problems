@@ -10,11 +10,8 @@ public class NaturalNumSum {
         int sum = 0;
 
         //edge case
-        if(n < 0){
-            System.out.println("Please enter a positive integer greater than 0."); 
-        }
-        else if( n == 0){
-            System.out.println(n + " is not a Natural Number.");
+        if (n <= 0) {
+            System.out.println("The number should be greater than zero.");
         }
         //edge case
         else{
