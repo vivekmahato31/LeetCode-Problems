@@ -8,11 +8,8 @@ public class EvenNumSum {
         int n = sc.nextInt();
         int sum = 0;
         
-        if ( n == 0 ){
-            System.out.println("The number should be greater than zero."); 
-        }
-        else if ( n < 0 ){
-            System.out.println("The number should be positive and greater than zero."); 
+        if (n <= 0) {
+            System.out.println("The number should be greater than zero.");
         }
         else {
             System.out.println("The Sum of all even numbers from 1 to " + n + " are: ");
