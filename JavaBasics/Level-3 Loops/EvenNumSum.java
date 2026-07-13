@@ -13,10 +13,8 @@ public class EvenNumSum {
         }
         else {
             System.out.println("The Sum of all even numbers from 1 to " + n + " are: ");
-            for (int i = 0; i <= n; i++){
-                if( i % 2 == 0){
-                    sum = sum + i;
-                }
+            for (int i = 0; i <= n; i+= 2){
+                    sum += i;
             }
             System.out.println(sum);
         }
