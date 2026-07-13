@@ -17,8 +17,8 @@ public class NaturalNumSum {
         else{
             System.out.println("The sum of all natural numbers for 1 to " + n + " are: ");
 
-        for(int i = 1; i <= n ; i++){
-            sum = sum + i;
+        for(int i = 1; i <= n ; i += 1){
+            sum += i;
             }
             System.out.println(sum);
         }
