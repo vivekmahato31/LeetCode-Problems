@@ -12,9 +12,14 @@ public class CountNumbers {
             System.out.println("The number should be greater than zero.");
         }
         else{
+
+            System.out.println("The numbers are: ");
             for( int i = 3; i <= n; i+= 3){
-                System.out.println("The numbers are: " + i);
+                System.out.println(i);             
+                count +=1;   
             }
+            System.out.println("There are " + count + " numbers from 1 to " + n + " are divisible by 3.");
+
         }
         sc.close();
     }
