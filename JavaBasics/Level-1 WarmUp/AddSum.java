@@ -9,7 +9,7 @@ public class AddSum {
         System.out.println("Enter first Number: ");
         int A = sc.nextInt();
 
-        System.out.println("Enter first Number: ");
+        System.out.println("Enter second Number: ");
         int B = sc.nextInt();
 
         int sum = A + B;
