@@ -9,11 +9,8 @@ public class NaturalNumReverse {
         int n = sc.nextInt();
 
         //edge case
-        if(n < 0){
-            System.out.println("Please enter a positive integer greater than 0."); 
-        }
-        else if( n == 0){
-            System.out.println(n + " Is not a Natural Number.");
+        if(n <= 0){
+            System.out.println("Please enter integer greater than 0."); 
         }
         //edge case
         else{

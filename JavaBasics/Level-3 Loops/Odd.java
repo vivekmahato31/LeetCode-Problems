@@ -17,10 +17,10 @@ public class Odd {
             System.out.println("All Odd number from 1 to " + n + " are: ");
             
             for ( int i = 1; i <= n ; i++ ){
-            if( i % 2 == 1){
-                System.out.println(i);
+                if( i % 2 == 1){
+                    System.out.println(i);
+                }
             }
-        }
         }
         sc.close();
     }
