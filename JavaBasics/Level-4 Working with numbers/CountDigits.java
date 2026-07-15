@@ -9,26 +9,22 @@ public class CountDigits {
 
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        n = Math.abs(n);
+        int count = 0;
 
         // Edge Case 
         if (n == 0) {
             System.out.println("The number of digits is: 1");
-            sc.close();
-            return;
         }
-
         // Edge Case 
-        n = Math.abs(n);
+        else {
+            while (n > 0) {
+                count++;
+                n = n / 10;
+            }
+            System.out.println("The number of digits is: " + count);
 
-        int count = 0;
-
-        while (n > 0) {
-            count++;
-            n = n / 10;
         }
-
-        System.out.println("The number of digits is: " + count);
-
         sc.close();
     }
 }
