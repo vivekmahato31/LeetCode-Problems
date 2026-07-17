@@ -9,16 +9,16 @@ public class SumOfDigits {
         int n =sc.nextInt();
         int original = n;
         n = Math.abs(n);
-        int digit = 0 ;
         int sum = 0 ;
 
         if ( n == 0){
+            System.out.println("The sum of all digits of a number "+ original + " is: ");
             System.out.println("0");
         }
         else {
             System.out.println("The sum of all digits of a number "+ original + " is: ");
             while ( n > 0){
-                digit = n % 10;
+                int digit = n % 10;
                 n = n/10;
                 sum = sum + digit;
             }
