@@ -16,7 +16,7 @@ public class SumOfDigits {
             System.out.println("0");
         }
         else {
-            System.out.println("The sum of all digits of a number "+ original + " is: ");
+                System.out.println("The sum of all digits of a number "+ original + " is: ");
             while ( n > 0){
                 int digit = n % 10;
                 n = n/10;
