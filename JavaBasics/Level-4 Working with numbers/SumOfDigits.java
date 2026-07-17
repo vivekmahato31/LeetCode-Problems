@@ -6,8 +6,23 @@ public class SumOfDigits {
     public static void main (String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter n: ");
-        sc.nextInt();
+        int n =sc.nextInt();
+        n = Math.abs(n);
+        int digit = 0 ;
+        int sum = 0 ;
 
-        
+        if ( n == 0){
+            System.out.println("0");
+        }
+        else {
+            System.out.println("The sum of all digits of a number "+ n + " are: ");
+            while ( n > 0){
+                digit = n % 10;
+                n = n/10;
+                sum = sum + digit;
+            }
+            System.out.println(sum);
+        }
+        sc.close();
     }   
 }
