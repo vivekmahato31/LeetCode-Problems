@@ -13,7 +13,7 @@ public class ProductOfDigits {
 
         if ( n == 0){
             System.out.println("The Product of all digits of a number "+ original + " is: ");
-            System.out.println("0");
+            System.out.println(0);
         }
         else {
                 System.out.println("The Product of all digits of a number "+ original + " is: ");
