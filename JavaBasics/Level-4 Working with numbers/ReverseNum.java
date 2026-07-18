@@ -1,7 +1,6 @@
 //  Write a program to reverse a number n.
 
 import java.util.*;
-
 public class ReverseNum {
      public static void main (String [] args){
         Scanner sc = new Scanner (System.in);
