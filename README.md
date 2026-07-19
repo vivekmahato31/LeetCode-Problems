@@ -1,22 +1,35 @@
-# 🚀 Java & DSA Journey
+🚀 Java & DSA Journey
 
 Welcome to my coding repository!
 
-This repository documents my journey of learning Java, Data Structures & Algorithms (DSA), and solving coding problems consistently.
+This repository showcases my journey of learning Java, Data Structures & Algorithms (DSA), and consistently solving coding problems to strengthen my problem-solving skills and prepare for software engineering interviews.
 
-## 📚 What's Inside
+📚 What's Inside
 
-- ☕ Java Basics (100+ Practice Programs)
-- 📖 Core Java Concepts
-- 🧠 DSA Topic-wise Practice
+- ☕ Java Fundamentals (100+ Practice Programs)
+- 📖 Core Java Concepts & OOP
+- 🧠 Data Structures & Algorithms (Topic-wise Practice)
 - 💻 LeetCode Solutions
-- 📝 Learning Resources & Notes
+- 📝 Notes, Resources & Revision Material
 
-## 🎯 Goal
+🎯 Goals
 
-- Build strong Java fundamentals.
-- Master DSA step by step.
-- Solve LeetCode problems consistently.
-- Prepare for internships and software engineering interviews.
+- Build a strong foundation in Java.
+- Master Data Structures & Algorithms step by step.
+- Solve coding problems consistently on LeetCode.
+- Improve analytical and problem-solving skills.
+- Prepare for internships and Software Engineering roles.
+
+🛠️ Tech Stack
+
+- Java
+- Git & GitHub
+- VS Code / IntelliJ IDEA
+
+📈 Progress
+
+This repository is regularly updated as I learn new concepts, solve more coding problems, and build stronger programming fundamentals.
+
+⭐ If you find this repository helpful, feel free to star it!
 
 Happy Coding! 🚀
