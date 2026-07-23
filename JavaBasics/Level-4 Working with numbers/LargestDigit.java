@@ -9,7 +9,6 @@ public class LargestDigit {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
-        int largest = 0;
 
         System.out.println("Largest digit = " + largest);
 
