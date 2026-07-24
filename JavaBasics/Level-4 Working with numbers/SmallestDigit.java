@@ -7,17 +7,20 @@ public class SmallestDigit {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+
         n = Math.abs(n);
-        int smallest = 0;
 
         if (n == 0) {
-            smallest = 0;
-        } 
-        else {
+            System.out.println("Smallest digit = 0");
+        } else {
+
+            int smallest = n % 10;
+
             while (n > 0) {
-                
+
                 int digit = n % 10;
 
                 if (digit < smallest) {
@@ -26,9 +29,9 @@ public class SmallestDigit {
 
                 n = n / 10;
             }
-        }
 
-        System.out.println("Smallest digit = " + smallest);
+            System.out.println("Smallest digit = " + smallest);
+        }
 
         sc.close();
     }
